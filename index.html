@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Talking Drum — a lineage</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600&family=Spectral:ital,wght@0,300;0,400;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root{--sea:#170d20;--line:rgba(154,152,166,.16);--lead:#9a98a6;--lead-dim:#5b5868;
+    --parch:#e9e2d2;--parch-dim:#b9b2a3;--gold:#d9a441;--gold-dim:#a87f33;--verd:#73b3a3;--murex:#9a3d68;--ochre:#c8772e;}
+  *{box-sizing:border-box}
+  body{margin:0;min-height:100vh;background:var(--sea);color:var(--parch);font-family:"Spectral",Georgia,serif;line-height:1.55;
+    -webkit-font-smoothing:antialiased;background-image:radial-gradient(1100px 560px at 80% -12%,rgba(200,119,46,.13),transparent 60%),
+      radial-gradient(820px 640px at 5% 112%,rgba(115,179,163,.09),transparent 55%);display:flex;justify-content:center}
+  .card{max-width:780px;width:100%;padding:34px 24px 50px}
+  .eyebrow{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.26em;text-transform:uppercase;color:var(--gold-dim)}
+  h1{font-family:"Cormorant Garamond",serif;font-weight:300;font-size:clamp(42px,11vw,66px);margin:6px 0 0;line-height:.94;letter-spacing:-.5px}
+  h1 .gk{display:block;font-size:.32em;color:var(--lead);letter-spacing:.05em;margin-top:6px;font-style:italic}
+  .sub{font-style:italic;font-weight:300;color:var(--parch-dim);font-size:15.5px;margin:14px 0 0;max-width:56ch}
+  .sub b{color:var(--verd);font-style:normal;font-weight:400}
+  figure{margin:26px 0 0}
+  svg{display:block;width:100%;height:auto;background:rgba(0,0,0,.16);border:1px solid var(--line);border-radius:8px}
+  figcaption{font-family:"IBM Plex Mono",monospace;font-size:11px;color:var(--lead-dim);margin-top:10px;line-height:1.7}
+  figcaption b{color:var(--gold-dim);font-weight:500}
+  h2{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--gold-dim);
+    margin:30px 0 12px;font-weight:500;border-top:1px solid var(--line);padding-top:18px}
+  .mech{display:flex;flex-wrap:wrap;gap:10px;align-items:stretch}
+  .step{flex:1;min-width:150px;background:rgba(0,0,0,.2);border:1px solid var(--line);border-radius:7px;padding:13px 14px}
+  .step .n{font-family:"IBM Plex Mono",monospace;font-size:10px;letter-spacing:.1em;color:var(--ochre)}
+  .step h3{font-family:"Cormorant Garamond",serif;font-weight:500;font-size:20px;margin:4px 0 6px;color:var(--parch)}
+  .step p{margin:0;font-size:14px;color:var(--parch-dim)}
+  .step.hot{border-color:rgba(154,61,104,.5)} .step.hot h3{color:var(--murex)}
+  .arrow{align-self:center;color:var(--lead-dim);font-family:"IBM Plex Mono",monospace;font-size:18px}
+  p.body{font-size:15.5px;color:var(--parch-dim);max-width:62ch}
+  p.body b{color:var(--parch)} p.body .verd{color:var(--verd)}
+  .note{margin-top:24px;border-top:1px solid var(--line);padding-top:15px;font-family:"IBM Plex Mono",monospace;font-size:11px;line-height:1.85;color:var(--lead-dim)}
+  .note b{color:var(--gold-dim);font-weight:500}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="eyebrow">a purple-paper instrument · lineage</div>
+  <h1>The Talking Drum<span class="gk">ìlù àyàn · the drum that speaks</span></h1>
+  <p class="sub">Not a code of letters — a <b>speech surrogate</b>. In tonal languages, pitch already carries meaning, so the drum re-voices the rising and falling of real spoken sentences. It doesn't spell. It <b>talks</b>. This is the one in the whole audio-cipher family that carries something Morse cannot: the living prosody of a language.</p>
+
+  <figure>
+    <svg viewBox="0 0 780 440" role="img" aria-label="A lineage of the talking drum: from tonal speech through the speech-surrogate principle to regional drum traditions, and the decode line to information theory">
+      <!-- ZONE 1: genealogy -->
+      <text x="30" y="40" fill="#a87f33" font-family="IBM Plex Mono,monospace" font-size="10.5" letter-spacing="2">THE GENEALOGY</text>
+      <!-- origin -->
+      <circle cx="80" cy="120" r="5.5" fill="#d9a441"/>
+      <text x="80" y="100" text-anchor="middle" fill="#e9e2d2" font-family="IBM Plex Mono,monospace" font-size="11" letter-spacing="1">TONAL SPEECH</text>
+      <text x="80" y="138" text-anchor="middle" fill="#73b3a3" font-family="Spectral,serif" font-style="italic" font-size="11">pitch = meaning</text>
+      <!-- to surrogate -->
+      <line x1="86" y1="120" x2="214" y2="120" stroke="#9a98a6" stroke-width="1.4"/>
+      <circle cx="232" cy="120" r="6" fill="#c8772e"/>
+      <text x="232" y="100" text-anchor="middle" fill="#e9e2d2" font-family="IBM Plex Mono,monospace" font-size="11" letter-spacing="1">THE SURROGATE</text>
+      <text x="232" y="138" text-anchor="middle" fill="#73b3a3" font-family="Spectral,serif" font-style="italic" font-size="11">keep pitch + rhythm, drop the rest</text>
+
+      <!-- branches -->
+      <g stroke="#5b5868" stroke-width="1.2" fill="none">
+        <path d="M240,118 C330,70 380,62 470,62"/>
+        <path d="M240,119 C330,95 380,98 470,98"/>
+        <path d="M240,121 C330,128 380,134 470,134"/>
+        <path d="M240,122 C330,160 380,170 470,170"/>
+        <path d="M240,124 C330,200 380,210 470,210"/>
+      </g>
+      <!-- west africa cluster -->
+      <g>
+        <circle cx="470" cy="62" r="4.5" fill="#d9a441"/>
+        <text x="484" y="58" fill="#e9e2d2" font-family="IBM Plex Mono,monospace" font-size="12">dùndún · gángan</text>
+        <text x="484" y="72" fill="#8b8a96" font-family="Spectral,serif" font-style="italic" font-size="11">Yorùbá · Nigeria — “sweet sound,” 3 tones</text>
+        <circle cx="470" cy="98" r="4.5" fill="#d9a441"/>
+        <text x="484" y="94" fill="#e9e2d2" font-family="IBM Plex Mono,monospace" font-size="12">bàtá</text>
+        <text x="484" y="108" fill="#8b8a96" font-family="Spectral,serif" font-style="italic" font-size="11">Yorùbá · ritual · ẹ̀nà bàtá secret code</text>
+        <circle cx="470" cy="134" r="4.5" fill="#d9a441"/>
+        <text x="484" y="130" fill="#e9e2d2" font-family="IBM Plex Mono,monospace" font-size="12">kalangu</text>
+        <text x="484" y="144" fill="#8b8a96" font-family="Spectral,serif" font-style="italic" font-size="11">Hausa · northern Nigeria</text>
+        <circle cx="470" cy="170" r="4.5" fill="#d9a441"/>
+        <text x="484" y="166" fill="#e9e2d2" font-family="IBM Plex Mono,monospace" font-size="12">atumpan</text>
+        <text x="484" y="180" fill="#8b8a96" font-family="Spectral,serif" font-style="italic" font-size="11">Akan · Ghana — paired “male/female” drums</text>
+      </g>
+      <text x="470" y="36" fill="#5b5868" font-family="IBM Plex Mono,monospace" font-size="9.5" letter-spacing="1.5">— WEST AFRICA —</text>
+      <!-- central africa -->
+      <circle cx="470" cy="210" r="4.5" fill="#73b3a3"/>
+      <text x="484" y="206" fill="#e9e2d2" font-family="IBM Plex Mono,monospace" font-size="12">Kele / Lokele slit drums</text>
+      <text x="484" y="220" fill="#8b8a96" font-family="Spectral,serif" font-style="italic" font-size="11">Congo · 2 tones — the one Carrington decoded</text>
+      <text x="470" y="240" fill="#5b5868" font-family="IBM Plex Mono,monospace" font-size="9.5" letter-spacing="1.5">— CENTRAL AFRICA —</text>
+
+      <line x1="30" y1="262" x2="750" y2="262" stroke="rgba(154,152,166,.16)" stroke-width="1"/>
+
+      <!-- ZONE 2: decode line -->
+      <text x="30" y="292" fill="#a87f33" font-family="IBM Plex Mono,monospace" font-size="10.5" letter-spacing="2">THE DECODE LINE — how it became information theory</text>
+      <line x1="70" y1="360" x2="640" y2="360" stroke="#9a98a6" stroke-width="1.3"/>
+      <!-- Moore -->
+      <circle cx="120" cy="360" r="5.5" fill="#d9a441"/>
+      <text x="120" y="341" text-anchor="middle" fill="#e9e2d2" font-family="IBM Plex Mono,monospace" font-size="11">FRANCIS MOORE</text>
+      <text x="120" y="378" text-anchor="middle" fill="#8b8a96" font-family="IBM Plex Mono,monospace" font-size="9.5">1730 · Gambia</text>
+      <text x="120" y="392" text-anchor="middle" fill="#73b3a3" font-family="Spectral,serif" font-style="italic" font-size="10.5">first European report</text>
+      <!-- Carrington -->
+      <circle cx="350" cy="360" r="5.5" fill="#d9a441"/>
+      <text x="350" y="341" text-anchor="middle" fill="#e9e2d2" font-family="IBM Plex Mono,monospace" font-size="11">CARRINGTON</text>
+      <text x="350" y="378" text-anchor="middle" fill="#8b8a96" font-family="IBM Plex Mono,monospace" font-size="9.5">1930s–1949 · Congo</text>
+      <text x="350" y="392" text-anchor="middle" fill="#73b3a3" font-family="Spectral,serif" font-style="italic" font-size="10.5">decodes Kele, learns to drum</text>
+      <!-- Gleick -->
+      <circle cx="560" cy="360" r="5.5" fill="#d9a441"/>
+      <text x="560" y="341" text-anchor="middle" fill="#e9e2d2" font-family="IBM Plex Mono,monospace" font-size="11">GLEICK · DYSON</text>
+      <text x="560" y="378" text-anchor="middle" fill="#8b8a96" font-family="IBM Plex Mono,monospace" font-size="9.5">2011</text>
+      <text x="560" y="392" text-anchor="middle" fill="#73b3a3" font-family="Spectral,serif" font-style="italic" font-size="10.5">→ opens information theory</text>
+      <!-- arrow to info theory -->
+      <line x1="575" y1="360" x2="700" y2="360" stroke="#5b5868" stroke-width="1.2" stroke-dasharray="4 4"/>
+      <path d="M700,360 l-7,-4 l0,8 z" fill="#5b5868"/>
+      <text x="712" y="356" text-anchor="start" fill="#8b8a96" font-family="Spectral,serif" font-style="italic" font-size="10.5" transform="rotate(-90 712 356)">Shannon</text>
+      <text x="640" y="414" text-anchor="middle" fill="#5b5868" font-family="IBM Plex Mono,monospace" font-size="9">telephones → near-extinction</text>
+    </svg>
+    <figcaption><b>the sound-line.</b> one principle (the surrogate) fans into the regional traditions, then a separate thread — Moore’s 1730 report, Carrington’s decode, Gleick’s 2011 retelling — carries it into modern information theory. dates approximate; the descent is real.</figcaption>
+  </figure>
+
+  <h2>the mechanism — why it needs redundancy</h2>
+  <div class="mech">
+    <div class="step"><div class="n">01 · STRIP</div><h3>Speech → tone</h3><p>The drum keeps only pitch and rhythm. Vowels and consonants are thrown away. A whole sentence becomes a bare contour of highs and lows.</p></div>
+    <div class="arrow">→</div>
+    <div class="step hot"><div class="n">02 · COLLIDE</div><h3>Ambiguity</h3><p>Two high tones [– –] could be <i>sango</i> (father), <i>songe</i> (moon), <i>koko</i> (fowl), <i>fele</i> (a fish)… ~130 such collisions in one mission dictionary.</p></div>
+    <div class="arrow">→</div>
+    <div class="step hot"><div class="n">03 · REPAIR</div><h3>Redundancy</h3><p>So the drummer adds a fixed stock phrase: the moon becomes <i>“the moon looks down at the earth.”</i> ~8 drum-words per spoken word — error correction, by ear.</p></div>
+  </div>
+
+  <p class="body" style="margin-top:18px">That third step is the whole point. The drummers found, by trial and error and centuries before Shannon, the exact trick information theory would later formalize: <span class="verd">when your channel is lossy, you buy back clarity with redundancy.</span> It’s the same instinct as the Homeric formula — not just Zeus but <i>Zeus the cloud-gatherer</i>, not just the sea but the <i>wine-dark sea</i> — extra, predictable words that survive a noisy channel. The drum is an oral culture’s error-correcting code.</p>
+
+  <div class="note">
+    <b>respect &amp; accuracy.</b> these are living (and recently-living) African traditions — dùndún, bàtá, atumpan, the Kele drum language — not curios. names and regions here are real; the Kele example and figures come from Carrington’s fieldwork as retold by Gleick and Dyson.
+    <br><b>why it beats Morse.</b> Morse is a discrete alphabet — you spell. the talking drum is a <b>speech surrogate</b> — it re-voices the actual melody of a sentence, carrying tone, emotion, praise-poetry. that’s a categorically richer channel, and the reason it earns the “does something Morse can’t” verdict. next: the instrument itself.
+  </div>
+</div>
+</body>
+</html>
