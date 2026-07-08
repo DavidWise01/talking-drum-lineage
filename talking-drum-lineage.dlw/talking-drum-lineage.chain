@@ -4,6 +4,6 @@ slug  : talking-drum-lineage
 seal  : f2f81e32014cfab165627a683c45169b228537a61ea13a0c327b403124b360e3
 prev  : 8ebdcf41fe826bbf9293834e0667cd52740fe3f0c796be4dfecee06109be902b
 link  : 70b0de95575afe08b86aa56213b225c6d09cc308f4c991b235f2ee7d658f13c0
-head  : 3447d3a0533aaf1e29a8bdc67a9774884fb3ae9dbc8a17064b7a008ca3c4ec90
+head  : 13f9ace173ef2e60af38912ba329b4afcb5a38b84a0e4495e8d30327f8c99cc2
 
 — the tether: link = sha256(index|slug|seal|prev). the chain head commits to the whole corpus.
