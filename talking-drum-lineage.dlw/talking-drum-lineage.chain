@@ -1,9 +1,9 @@
 ROOT0-DLW-CHAIN-v1
 index : 163
 slug  : talking-drum-lineage
-seal  : f2f81e32014cfab165627a683c45169b228537a61ea13a0c327b403124b360e3
-prev  : 8ebdcf41fe826bbf9293834e0667cd52740fe3f0c796be4dfecee06109be902b
-link  : 70b0de95575afe08b86aa56213b225c6d09cc308f4c991b235f2ee7d658f13c0
-head  : 13f9ace173ef2e60af38912ba329b4afcb5a38b84a0e4495e8d30327f8c99cc2
+seal  : 494c0eaf6ab7c4d78ecbcdf14dbcca9c18c8ac72a5d8e4e62a34ac04d2add999
+prev  : d60adefe0237cae3a8da531de5bc9c4c85b7d0467a19b3e437438a9b6fbe8fb6
+link  : 6138c0fbb3950f416b8acec6e82d451b78b4995d03084d978ecbf7b7ac2a1115
+head  : c4d41afeaef76470528856d54d86cf480a0e1c2fc8ebc60fbb9eb8e442585f2b
 
 — the tether: link = sha256(index|slug|seal|prev). the chain head commits to the whole corpus.
